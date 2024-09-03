@@ -1,0 +1,27 @@
+//Сброс стилей
+
+@import "./constants/normalize";
+
+//Переменные
+
+@import "./constants/constsnts";
+
+
+//База
+
+@import "./base/mixins";
+@import "./base/templates";
+
+//Компоненты
+
+@import "./components/header";
+@import "./components/hero";
+@import "./components/step";
+
+
+
+
+
+
+
+

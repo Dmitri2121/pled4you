@@ -1,0 +1,35 @@
+body {
+    background-color: $background-color;
+}
+
+.wrapper {
+    @extend %wrapper;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.navigation {
+    
+    
+    margin: 0 auto;
+}
+
+.nav__content {
+    display: flex;
+}
+
+.nav__item {
+    list-style-type: none;
+    margin-right: 80px;
+}
+
+.nav__link {
+    @include font(Roboto, 400, 50px, 86px);
+    text-decoration: none;
+    color: $color-text;
+}
+

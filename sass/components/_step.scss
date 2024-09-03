@@ -1,0 +1,37 @@
+.steps-content {
+    display: flex;
+}
+
+.step {
+    display: flex;
+    justify-content: space-between;
+    width: 678px;
+    height: 146px;
+    border-bottom: $color-text solid 1px;
+    margin-bottom: 24px;
+}
+
+.step__text {
+    width: 329px;
+    height: 110px;
+    margin: 0;
+    @include font(Roboto, 400, 16px, 22.4px);
+}
+
+.step__title {
+    @include font(Roboto, 400, 36px, 49.68px);
+    margin: 0;
+}
+
+.project {
+    display: block;
+    width: 445px;
+    height: 580px;
+    background-image: url(/img/projects/01.jpg);
+}
+
+.projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
