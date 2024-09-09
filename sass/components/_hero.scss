@@ -8,7 +8,7 @@
 }
 
 .main-text {
-    max-width: 794px;
+    max-width: 780px;
 }
 
 .main-images {
@@ -23,44 +23,8 @@
 }
 
 .main-images__02 {
-    width: 678px;
+    width: 580px;
     height: 809px;
+    margin-top: 35px;
 }
 
-.about-style {
-    @include font(Roboto, 400, 48px, 66.24px);
-    width: 562px;
-    margin: 0;
-}
-
-.about-content {
-    display: flex;
-    justify-content: space-between
-}
-
-.about-information__text, .about-info__text {
-    @include font(Roboto, 400, 16px, 22.4px);
-}
-
-.about-information__text {
-    width: 446px;
-}
-
-.about-information__content {
-    margin-right: 230px;
-}
-
-.about-info__title {
-    @include font(Roboto, 400, 36px, 49.68px);
-    margin: 0;
-}
-
-.about-info {
-    width: 146px;
-    height: 94px;
-    margin-bottom: 24px;
-}
-
-.about-info__text {
-    margin: 0;
-}

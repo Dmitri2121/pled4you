@@ -1,0 +1,35 @@
+.delivery-content__text {
+    @include font(Roboto, 400, 16px, 22.4px);
+}
+
+.delivery-content {
+    width: 770px;
+}
+
+.delivery__information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantages {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    justify-content: space-between
+}
+
+.advantages__title {
+    @include font(Roboto, 700, 22px, 22.4px);
+    text-align: right;
+}
+
+.advantages-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.advantages__image {
+    width: 114px;
+    height: 114px;
+}

@@ -1,0 +1,17 @@
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px
+}
+.footer-content__link {
+    @include font(Roboto, 600, 34px, 28px);
+    color: $color-text;  
+    text-decoration: none;  
+    text-align: center;
+}
+
+.footer-content__text {
+    @include font(Roboto, 600, 26px, 22px);
+}
+

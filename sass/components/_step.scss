@@ -24,14 +24,55 @@
 }
 
 .project {
-    display: block;
+    
+    display: flex;
+    align-items: end;
     width: 445px;
     height: 580px;
     background-image: url(/img/projects/01.jpg);
+    text-decoration: none;
+    color: $background-color;
+    transition: 0.3s; 
+    &:hover {
+        transform: scale(1.2);
+        .project__text {
+            display: flex;
+            justify-content: space-between;
+            transform: none;
+        }
+    }
 }
 
 .projects-content {
+    margin-top: 32px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.steps {
+    margin-bottom: 120px;
+}
+
+.projects-content__images {
+    overflow: hidden;
+}
+
+.project__text {
+    display: none;
+    @include font(Roboto, 400, 16px, 22.4px);
+    height: 110px;
+    background-color:#21252980;
+    width: 445px;
+    padding-left: 62px;
+    padding-right: 62px;
+    padding-top: 22px;
+}
+
+.project__arrow {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(/img/projects/arrow.svg);
+}
+

@@ -1,0 +1,30 @@
+.about-style {
+    @include font(Roboto, 400, 48px, 66.24px);
+    width: 562px;
+    margin: 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between
+}
+
+.about-information__text, .about-info__text {
+    @include font(Roboto, 400, 16px, 22.4px);
+}
+
+.about-information__text {
+    width: 446px;
+}
+
+.about-information__content {
+    margin-right: 230px;
+}
+
+.hero {
+    margin-bottom: 120px;
+}
+
+.about {
+    margin-bottom: 120px;
+}

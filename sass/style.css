@@ -309,14 +309,14 @@ body {
   background-color: #FFFFFF;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.navigation {
-  margin: 0 auto;
 }
 
 .nav__content {
@@ -331,10 +331,20 @@ body {
 .nav__link {
   font-family: Roboto;
   font-weight: 400;
-  font-size: 50px;
-  line-height: 86px;
+  font-size: 32px;
+  line-height: 60px;
   text-decoration: none;
   color: #212529;
+}
+.nav__link:hover {
+  color: #018ABE;
+  transition: color 0.3s;
+  border-bottom: 2px solid #018ABE;
+}
+
+.logo__image {
+  width: 210px;
+  height: 110px;
 }
 
 .main-text__content {
@@ -353,7 +363,7 @@ body {
 }
 
 .main-text {
-  max-width: 794px;
+  max-width: 780px;
 }
 
 .main-images {
@@ -368,8 +378,124 @@ body {
 }
 
 .main-images__02 {
-  width: 678px;
+  width: 580px;
   height: 809px;
+  margin-top: 35px;
+}
+
+.steps-content {
+  display: flex;
+}
+
+.step {
+  display: flex;
+  justify-content: space-between;
+  width: 678px;
+  height: 146px;
+  border-bottom: #212529 solid 1px;
+  margin-bottom: 24px;
+}
+
+.step__text {
+  width: 329px;
+  height: 110px;
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.step__title {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49.68px;
+  margin: 0;
+}
+
+.project {
+  display: flex;
+  align-items: end;
+  width: 445px;
+  height: 580px;
+  background-image: url(/img/projects/01.jpg);
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+.project:hover {
+  transform: scale(1.2);
+}
+.project:hover .project__text {
+  display: flex;
+  justify-content: space-between;
+  transform: none;
+}
+
+.projects-content {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.steps {
+  margin-bottom: 120px;
+}
+
+.projects-content__images {
+  overflow: hidden;
+}
+
+.project__text {
+  display: none;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  height: 110px;
+  background-color: rgba(33, 37, 41, 0.5019607843);
+  width: 445px;
+  padding-left: 62px;
+  padding-right: 62px;
+  padding-top: 22px;
+}
+
+.project__arrow {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url(/img/projects/arrow.svg);
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 445px;
+  height: 327px;
+  border: 1px solid #212529;
+}
+
+.reviews__images {
+  width: 40px;
+  height: 40px;
+}
+
+.reviews__text {
+  text-align: center;
+}
+
+.testimonials {
+  display: flex;
+  gap: 25px;
+}
+
+.testimonial {
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .about-style {
@@ -419,46 +545,76 @@ body {
   margin: 0;
 }
 
-.steps-content {
-  display: flex;
+.hero {
+  margin-bottom: 120px;
 }
 
-.step {
+.about {
+  margin-bottom: 120px;
+}
+
+.footer-content {
   display: flex;
   justify-content: space-between;
-  width: 678px;
-  height: 146px;
-  border-bottom: #212529 solid 1px;
-  margin-bottom: 24px;
+  align-items: center;
+  padding: 50px 50px;
 }
 
-.step__text {
-  width: 329px;
-  height: 110px;
-  margin: 0;
+.footer-content__link {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 28px;
+  color: #212529;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer-content__text {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 22px;
+}
+
+.delivery-content__text {
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 22.4px;
 }
 
-.step__title {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 49.68px;
-  margin: 0;
+.delivery-content {
+  width: 770px;
 }
 
-.project {
-  display: block;
-  width: 445px;
-  height: 580px;
-  background-image: url(/img/projects/01.jpg);
-}
-
-.projects-content {
+.delivery__information {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  justify-content: space-around;
+}
+
+.advantages {
+  display: flex;
+  align-items: center;
+  width: 260px;
+  justify-content: space-between;
+}
+
+.advantages__title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22.4px;
+  text-align: right;
+}
+
+.advantages-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.advantages__image {
+  width: 114px;
+  height: 114px;
 }/*# sourceMappingURL=style.css.map */
