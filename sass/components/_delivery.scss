@@ -1,14 +1,21 @@
 .delivery-content__text {
     @include font(Roboto, 400, 16px, 22.4px);
+    margin-left: 70px;
+}
+
+.delivery-content__image {
+    margin-left: 70px;
 }
 
 .delivery-content {
     width: 770px;
 }
 
+
+
 .delivery__information {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .advantages {
@@ -27,6 +34,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-right: 100px;
 }
 
 .advantages__image {

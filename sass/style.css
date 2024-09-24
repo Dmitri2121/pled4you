@@ -325,7 +325,7 @@ html {
 
 .nav__item {
   list-style-type: none;
-  margin-right: 80px;
+  margin-right: 120px;
 }
 
 .nav__link {
@@ -391,19 +391,20 @@ html {
   display: flex;
   justify-content: space-between;
   width: 678px;
-  height: 146px;
+  height: 185px;
   border-bottom: #212529 solid 1px;
   margin-bottom: 24px;
 }
 
 .step__text {
+  align-self: flex-start;
   width: 329px;
   height: 110px;
   margin: 0;
   font-family: Roboto;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 22.4px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .step__title {
@@ -418,11 +419,13 @@ html {
   display: flex;
   align-items: end;
   width: 445px;
-  height: 580px;
-  background-image: url(/img/projects/01.jpg);
+  height: 388px;
+  background-image: url(/img/pled/in-yan/02.jpg);
   text-decoration: none;
   color: #FFFFFF;
   transition: 0.3s;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .project:hover {
   transform: scale(1.2);
@@ -433,11 +436,32 @@ html {
   transform: none;
 }
 
+.project-2 {
+  background-image: url(/img/pled/mency/04.jpg);
+}
+
+.project-3 {
+  background-image: url(/img/pled/polosatik/02.jpg);
+}
+
+.project-4 {
+  background-image: url(/img/pled/barashek/01.jpg);
+}
+
+.project-5 {
+  background-image: url(/img/pled/krolik/01.jpg);
+}
+
+.project-6 {
+  background-image: url(/img/pled/kubik/01.jpg);
+}
+
 .projects-content {
   margin-top: 32px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-bottom: 30px;
 }
 
 .steps {
@@ -464,38 +488,9 @@ html {
 
 .project__arrow {
   display: block;
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   background-image: url(/img/projects/arrow.svg);
-}
-
-.reviews {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 445px;
-  height: 327px;
-  border: 1px solid #212529;
-}
-
-.reviews__images {
-  width: 40px;
-  height: 40px;
-}
-
-.reviews__text {
-  text-align: center;
-}
-
-.testimonials {
-  display: flex;
-  gap: 25px;
-}
-
-.testimonial {
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
 .about-style {
@@ -525,24 +520,6 @@ html {
 
 .about-information__content {
   margin-right: 230px;
-}
-
-.about-info__title {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 49.68px;
-  margin: 0;
-}
-
-.about-info {
-  width: 146px;
-  height: 94px;
-  margin-bottom: 24px;
-}
-
-.about-info__text {
-  margin: 0;
 }
 
 .hero {
@@ -577,11 +554,58 @@ html {
   line-height: 22px;
 }
 
+.our-organization__text {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #212529;
+}
+
+.our-organization__register {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #212529;
+}
+
+.our-register__info {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #212529;
+}
+
+.footer-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-organization {
+  width: 630px;
+}
+
+.our-register {
+  width: 630px;
+}
+
+.our-register__link {
+  text-decoration: none;
+  color: #212529;
+}
+
 .delivery-content__text {
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 22.4px;
+  margin-left: 70px;
+}
+
+.delivery-content__image {
+  margin-left: 70px;
 }
 
 .delivery-content {
@@ -590,7 +614,7 @@ html {
 
 .delivery__information {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .advantages {
@@ -612,9 +636,80 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-right: 100px;
 }
 
 .advantages__image {
   width: 114px;
   height: 114px;
+}
+
+.pled-information__img {
+  width: 600px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+.our-pled__title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.our-pled__text {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  opacity: 70%;
+}
+
+.pled-shop {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pled-shop__text {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 25px;
+  color: #E34F45;
+}
+
+.pled-shop__button {
+  width: 150px;
+  height: 50px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background-color: #EEB256;
+  border-color: #FFFFFF;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.our-pled {
+  padding: 25px;
+  border: 2px solid #EEB256;
+  width: 600px;
+  border-radius: 25px;
+}
+
+.pled-information {
+  width: 600px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.pled-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */

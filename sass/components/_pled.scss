@@ -1,0 +1,57 @@
+.pled-information__img {
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.our-pled__title {
+    @include font(Roboto, 700, 25px, 30px);
+}
+
+.our-pled__text {
+    @include font(Roboto, 500, 15px, 20px);
+    opacity: 70%;
+}
+
+.pled-shop {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pled-shop__text {
+    @include font(Roboto, 500, 30px, 25px);
+    color: $color-price;
+}
+
+.pled-shop__button {
+    width: 150px;
+    height: 50px;
+    @include font(Roboto, 700, 20px, 15px);
+    color: $background-color;
+    background-color: $background-price;
+    border-color: $background-color;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.our-pled {
+    padding: 25px;
+    border: 2px solid $background-price;
+    width: 600px;
+    border-radius: 25px;
+}
+
+.pled-information {
+    width: 600px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.pled-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

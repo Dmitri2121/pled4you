@@ -15,3 +15,38 @@
     @include font(Roboto, 600, 26px, 22px);
 }
 
+.our-organization__text {
+    @include font(Roboto, 600, 18px, 28px);
+    color: $color-text;  
+}
+
+.our-organization__register {
+    @include font(Roboto, 600, 18px, 28px);
+    color: $color-text; 
+}
+
+.our-register__info {
+    @include font(Roboto, 600, 18px, 28px);
+    color: $color-text; 
+}
+
+.footer-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-organization {
+    width: 630px;
+}
+
+.our-register {
+    width: 630px;
+}
+
+.our-register__link {
+    text-decoration: none;
+    color: $color-text;
+}
+
+
+
