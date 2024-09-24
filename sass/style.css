@@ -420,7 +420,7 @@ html {
   align-items: end;
   width: 445px;
   height: 388px;
-  background-image: url(/img/pled/in-yan/02.jpg);
+  background-image: url(img/pled/in-yan/02.jpg);
   text-decoration: none;
   color: #FFFFFF;
   transition: 0.3s;
@@ -437,23 +437,23 @@ html {
 }
 
 .project-2 {
-  background-image: url(/img/pled/mency/04.jpg);
+  background-image: url(img/pled/mency/04.jpg);
 }
 
 .project-3 {
-  background-image: url(/img/pled/polosatik/02.jpg);
+  background-image: url(img/pled/polosatik/02.jpg);
 }
 
 .project-4 {
-  background-image: url(/img/pled/barashek/01.jpg);
+  background-image: url(img/pled/barashek/01.jpg);
 }
 
 .project-5 {
-  background-image: url(/img/pled/krolik/01.jpg);
+  background-image: url(img/pled/krolik/01.jpg);
 }
 
 .project-6 {
-  background-image: url(/img/pled/kubik/01.jpg);
+  background-image: url(img/pled/kubik/01.jpg);
 }
 
 .projects-content {
@@ -490,7 +490,7 @@ html {
   display: block;
   width: 13px;
   height: 13px;
-  background-image: url(/img/projects/arrow.svg);
+  background-image: url(img/projects/arrow.svg);
 }
 
 .about-style {
